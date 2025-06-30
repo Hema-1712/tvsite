@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
 import Index from './components/Index';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -10,7 +10,7 @@ import Log from './components/Log';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/log" element={<Log />} />
 
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
