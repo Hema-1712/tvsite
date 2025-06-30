@@ -2,7 +2,7 @@ import React from "react";
 import '../assets/style/style.css';
 import { Link } from 'react-router-dom';
 
-function Log() {
+function Signin() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Login submitted!");
@@ -10,8 +10,8 @@ function Log() {
 
   return (
 
-     <><nav className="navbar navbar-expand-lg px-4 justify-content-end" style={{ backgroundColor: 'cornsilk' }}>
-      <Link className="navbar-brand text-black" to="/">TVNEST</Link>
+     <><nav className="navbar navbar-expand-lg px-4 justify-content-end" style={{ backgroundColor: '#003366' }}>
+      <Link className="navbar-brand text-white" to="/">MED PLUS</Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -19,19 +19,19 @@ function Log() {
       <div className="collapse navbar-collapse justify-content-end" id="mainNavbar">
         <ul className="navbar-nav">
           <li className="nav-item mx-2">
-            <Link to="/" className="nav-link text-black">HOME</Link>
+            <Link to="/" className="nav-link text-white">HOME</Link>
           </li>
           <li className="nav-item mx-2">
-            <Link to="/store" className="nav-link text-black">STORE</Link>
+            <Link to="/shop" className="nav-link text-white">SHOP</Link>
           </li>
           <li className="nav-item mx-2">
-            <Link to="/contact" className="nav-link text-black">CONTACT</Link>
+            <Link to="/contactus" className="nav-link text-white">CONTACT US</Link>
           </li>
           <li className="nav-item mx-2">
-            <Link to="/about" className="nav-link text-black">ABOUT</Link>
+            <Link to="/blog" className="nav-link text-white">BLOG</Link>
           </li>
           <li className="nav-item mx-2">
-            <Link to="/log" className="nav-link text-black">LOGIN</Link>
+            <Link to="/signin" className="nav-link text-white">SIGN IN</Link>
           </li>
         </ul>
       </div>
@@ -73,7 +73,7 @@ function Log() {
               <i className="bi bi-instagram"></i>
               <i className="bi bi-twitter"></i>
             </span>
-            <p>TVNEST your trusted Technology Partner!!!! &copy; 2025 All rights reserved.</p>
+            <p>MED PLUS your trusted Healthy Partner!!!! &copy; 2025 All rights reserved.</p>
           
         
       </div>
@@ -81,5 +81,5 @@ function Log() {
   );
 }
 
-export default Log;
+export default Signin;
  

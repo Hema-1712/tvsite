@@ -3,42 +3,41 @@
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    background-color: cornsilk;
- color:black;
+    background-color: #003366;
+ color:white;
 }
 .nav-item a:hover{
     cursor:pointer;
-    background-color: cornsilk;
+    background-color: #003366;
     color:white;
 }
 .nav-bar{
   align-items: center;
   text-align: center;
-  color: black;
+  color: white;
   text-decoration: none;
 }
         .contact-container {
-  background-color:cornsilk;
-  color: black;
+  background-color:#003366;
+  color: white;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .contact-container h2 {
-  color: black;
+  color: white;
   font-weight: 700;
 }
 
 a {
   text-decoration: none;
-  color:black;
+  color:white;
 }
 
 a:hover {
   text-decoration: underline;
-  color:white;
-
+  color: white;
   cursor: pointer;
 }
 
@@ -49,7 +48,7 @@ form .btn {
   text-align: center;
   padding-top: 20px;
   font-size: 30px;
-  color:black;
+  color:white;
   border-radius: 10px;
 }
 .footer-bottom p{
@@ -61,7 +60,7 @@ form .btn {
     gap: 30px;
     width: 100%;
     height: 100px;
-    color:black;
+    color:white;
     justify-content: center;
     align-items: center;
     font-size: 30px;
@@ -69,13 +68,13 @@ form .btn {
 .footer-bottom p:hover{
   color:white;
   font-weight: 900;
-  
+  pointer: cursor;
    transform: translateY(-5px);
 }
 .icons:hover{
   color:white;
   font-weight: 900;
-  
+  pointer: cursor;
    transform: translateY(-5px);
 }
 @media (max-width: 768px) {

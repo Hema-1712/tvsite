@@ -3,15 +3,15 @@ import '../assets/style/cont.css';
   
 import { Link } from 'react-router-dom';
 
-function Contact() {
+function Contactus() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Thank you for reaching out!");
   };
 
   return (
-     <><nav className="navbar navbar-expand-lg px-4 justify-content-end" style={{ backgroundColor: 'cornsilk' }}>
-      <Link className="navbar-brand text-black" to="/">TVNEST</Link>
+     <><nav className="navbar navbar-expand-lg px-4 justify-content-end" style={{ backgroundColor: '#003366' }}>
+      <Link className="navbar-brand text-white" to="/">MED PLUS</Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -19,22 +19,19 @@ function Contact() {
       <div className="collapse navbar-collapse justify-content-end" id="mainNavbar">
         <ul className="navbar-nav">
           <li className="nav-item mx-2">
-            <Link to="/" className="nav-link text-black">HOME</Link>
+            <Link to="/" className="nav-link text-white">HOME</Link>
           </li>
           <li className="nav-item mx-2">
-            <Link to="/store" className="nav-link text-black">STORE</Link>
+            <Link to="/shop" className="nav-link text-white">SHOP</Link>
           </li>
           <li className="nav-item mx-2">
-            <Link to="/contact" className="nav-link text-black">CONTACT</Link>
-          </li>
-            <li className="nav-item mx-2">
-            <Link to="/about" className="nav-link text-black">ABOUT</Link>
+            <Link to="/contactus" className="nav-link text-white">CONTACT US</Link>
           </li>
           <li className="nav-item mx-2">
-            <Link to="/about" className="nav-link text-black">BLOG</Link>
+            <Link to="/blog" className="nav-link text-white">BLOG</Link>
           </li>
           <li className="nav-item mx-2">
-            <Link to="/log" className="nav-link text-black">LOGIN</Link>
+            <Link to="/signin" className="nav-link text-white">SIGN IN</Link>
           </li>
         </ul>
       </div>
@@ -45,9 +42,9 @@ function Contact() {
         <div className="row g-4">
           {/* Contact Info */}
           <div className="col-md-6">
-            <h4>Our Details</h4>
+            <h4>Our Pharmacy</h4>
             <p>
-              <strong>TVNEST</strong><br />
+              <strong>MEDPLUS</strong><br />
               247, Iyyapan Nagar<br />
               Salem Main Road, Harur<br />
               <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">View on Map</a>
@@ -57,7 +54,7 @@ function Contact() {
             <p>📱 +91-9990767890<br />☎️ Customer Care: 24/7</p>
 
             <h4>Email</h4>
-            <p>📧 support@tvnest.com<br />📦 orders@tvnest.com</p>
+            <p>📧 support@medplus.com<br />📦 orders@medplus.com</p>
 
             <h4>Working Hours</h4>
             <p>Mon–Sat: 9:00 AM – 9:00 PM<br />Sun: 10:00 AM – 5:00 PM</p>
@@ -98,7 +95,7 @@ function Contact() {
               <i className="bi bi-instagram"></i>
               <i className="bi bi-twitter"></i>
             </span>
-            <p>TVNEST your trusted Technology Partner!!!! &copy; 2025 All rights reserved.</p>
+            <p>MED PLUS your trusted Healthy Partner!!!! &copy; 2025 All rights reserved.</p>
           
         
         
@@ -107,4 +104,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Contactus;
